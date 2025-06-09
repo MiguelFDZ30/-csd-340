@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left, .right {
+    width: 45%;
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 60%;
+    text-align: right;
+    float: right;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: decimal inside;
+    font-weight: 300;
+}
+
+ul {
+    border: 1px dashed black;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: upper-roman inside;
+    font-weight: 300;
+}
+
+a:hover {
+    text-decoration: underline;
+}
